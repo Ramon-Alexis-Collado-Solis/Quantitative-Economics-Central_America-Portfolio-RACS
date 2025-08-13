@@ -205,3 +205,31 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- R ---
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+.RDataTmp
+
+# --- Jupyter / VS Code ---
+.ipynb_checkpoints/
+.vscode/
+
+# --- Datos y artefactos pesados ---
+**/data/raw/
+**/data/processed/*.parquet
+**/outputs/**/*.xlsx
+**/outputs/**/*.zip
+**/outputs/**/*.sav
+**/outputs/**/*.dta
+# Si NO quieres versionar PDFs pesados, deja esta línea; si sí, bórrala:
+# **/outputs/**/*.pdf
+
+# --- SO ---
+.DS_Store
+Thumbs.db
+
+chore: extend .gitignore for R/RStudio + data
