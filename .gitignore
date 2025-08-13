@@ -225,8 +225,6 @@ __marimo__/
 **/outputs/**/*.zip
 **/outputs/**/*.sav
 **/outputs/**/*.dta
-# Si NO quieres versionar PDFs pesados, deja esta línea; si sí, bórrala:
-# **/outputs/**/*.pdf
 
 # --- SO ---
 .DS_Store
